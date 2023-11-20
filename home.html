@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Komekio</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="c:\Canva\Logo\komekio.png" alt="Logo">
+            <h1>Komekio</h1>
+        </div>    
+        <nav>
+                <ul>
+                    <li><a href="htmleg2.html">Home</a></li>
+                    <div class="dropdown">
+                      <li><a href="#Apps" id="dropdown-link-apps">Apps</a></li>
+                        <div class="dropdown-content-apps">
+                          <a href="#">PC</a>
+                          <a href="#">Android</a>
+                          <a href="#">Mac</a>
+                          <a href="#">Linux</a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                      <li><a href="#Games" id="dropdown-link-games">Games</a></li>
+                        <div class="dropdown-content-games">
+                          <a href="#">Online</a>
+                          <a href="#">PC</a>
+                          <a href="#">Android</a>
+                          <a href="#">Mac</a>
+                          <a href="#">Linux</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                      <li><a href="#Media" id="dropdown-link-media">Media</a></li>
+                      <div class="dropdown-content-media">
+                        <a href="#">Videos</a>
+                        <a href="#">Images</a>
+                        <a href="#">Audios</a>
+                        <a href="#">Article</a>
+                        <a href="#">Community</a>
+                      </div>
+                    </div>
+                    <li><a href="javascript:showSignInForm()" id="signin-link">Sign in</a></li>
+                    <li><a href="javascript:showSignUpForm()" id="signup-link">Sign up</a></li>
+                    <li><a href="#" onclick="navigateToSection('about')">About Us</a></li>
+                    <li><a href="#" onclick="navigateToSection('services')">Services</a></li>
+                    <li><a href="#" onclick="navigateToSection('contact')">Contact</a></li>
+                    <li><input type="text" placeholder="Search...">
+                    <button type="submit">Search</button></li>
+                </ul>
+        </nav>
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                    <li><a href="htmleg2.html">Home</a></li>
+                    <li class="dropdowntwo"><a href="#Apps" >Apps</a>
+                    <ul>
+                      <li><a href="#">PC</a></li>
+                      <li><a href="#">Android</a></li>
+                      <li><a href="#">Mac</a></li>
+                      <li><a href="#">Linux</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdowntwo"><a href="#Games" >Games</a>
+                      <ul>
+                        <li><a href="#">Online</a></li>
+                        <li><a href="#">PC</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">Linux</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdowntwo"><a href="#Media" >Media</a>
+                      <ul>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><a href="#">Audios</a></li>
+                        <li><a href="#">Article</a></li>
+                        <li><a href="#">Community</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="javascript:showSignInForm()" id="signin-link">Sign in</a></li>
+                    <li><a href="javascript:showSignUpForm()" id="signup-link">Sign up</a></li>
+                    <li><a href="#" onclick="navigateToSection('about')">About Us</a></li>
+                    <li><a href="#" onclick="navigateToSection('services')">Services</a></li>
+                    <li><a href="#" onclick="navigateToSection('contact')">Contact</a></li>
+              </ul>
+        </div>
+    </header>
+    <div id="content">
+    <section id="home">
+        <h1>Welcome to Komekio</h1>
+        <p>Introducing Komekio, a dynamic and innovative startup at the forefront of digital creativity. Born out of a passion for cutting-edge technology and a commitment to delivering unparalleled user experiences, we specialize in developing unique and captivating apps and games for a variety of platforms.</p>
+
+            <h2>Our Vision:</h2>
+            <p>At Komekio, we envision a world where technology seamlessly integrates with everyday life, enhancing and enriching the way people connect, learn, and have fun. Our mission is to create exceptional digital experiences that captivate audiences and push the boundaries of what's possible in the digital realm.</p>
+            
+            <h2>Sets Us Apart:</h2>
+            <p>Unlike conventional development companies, Komekio takes pride in crafting apps and games exclusively for our own portfolio. This distinctive approach allows us the freedom to explore uncharted territories, experiment with groundbreaking concepts, and push the envelope of innovation. Every product we create is a manifestation of our team's passion for pushing boundaries and redefining user expectations.</p>
+            
+            <h2>Expertise:</h2>
+            <p>From engaging mobile applications that simplify daily tasks to immersive games that transport players to fantastical worlds, our team of skilled developers, designers, and visionaries work collaboratively to bring ideas to life. We leverage the latest technologies and industry trends to ensure that our creations not only meet but exceed the ever-evolving demands of the digital landscape.</p>
+            
+            <h2>Innovation at the Core:</h2>
+            <p>Innovation is the heartbeat of Komekio. We thrive on turning imaginative concepts into reality, challenging ourselves to break free from the ordinary and deliver experiences that resonate with users on a profound level. Whether it's a utility app designed to streamline productivity or a game that sparks endless hours of entertainment, our creations reflect a commitment to pushing the boundaries of what's possible.</p>
+            
+            <h2>Design:</h2>
+            <p>At the heart of our development philosophy is a deep understanding of user behavior and preferences. We meticulously design every app and game with the end user in mind, ensuring intuitive interfaces, seamless interactions, and an overall experience that delights and exceeds expectations.</p>
+            
+            <p>Join us on this exciting journey as we continue to redefine the landscape of digital experiences. Komekio is not just a company; it's a movement dedicated to shaping the future of technology, one groundbreaking app and game at a time. Explore the extraordinary with us.</p>
+            <div class="img-container">
+              <div class="wrapper">
+                  <img  src="C:\Users\sange\Projects\komekio\Images\game(img)1.avif" alt="Image 1">
+                  <img  src="C:\Users\sange\Projects\komekio\Images\game(img)2.avif" alt="Image 2">
+                  <img  src="C:\Users\sange\Projects\komekio\Images\game(img)3.avif" alt="Image 3">
+                  <img  src="C:\Users\sange\Projects\komekio\Images\game(img)4.avif" alt="Image 4">
+              </div>
+            </div> 
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+        <h2>Our Vision</h2>
+        <p>At Komekio, we envision a world where technology and creativity converge seamlessly to bring joy, excitement, and convenience into the lives of users. Our mission is to be at the forefront of technological advancements, creating digital solutions that not only entertain but also empower and inspire.</p>
+    
+        <h2>Who We Are</h2>
+        <p>Founded in 2023, Komekio is a passionate team of developers, designers, and visionaries who share a common love for pushing the boundaries of what's possible. With a diverse set of skills and backgrounds, we collaborate harmoniously to transform ideas into reality.</p>
+    
+        <h2>What Sets Us Apart</h2>
+        <ul>
+        <li><h3>Expertise</h3>
+        <p>Our team comprises seasoned professionals with extensive experience in the gaming and app development industry. We thrive on challenges and are committed to delivering high-quality products that exceed expectations.</p>
+        </li>
+        <li>
+        <h3>Innovation</h3>
+        <p>Innovation is the heartbeat of Komekio. We embrace the latest technologies and trends, ensuring that our games and apps stand out in today's dynamic digital landscape. We constantly explore new possibilities to keep our offerings fresh, engaging, and ahead of the curve.</p>
+        </li>
+        <li>
+        <h3>User-Centric Approach</h3>
+        <p>Understanding our users is at the core of everything we do. We believe in creating experiences that resonate with our audience. By prioritizing user feedback and incorporating user-centric design principles, we ensure that our products not only meet but exceed user expectations.</p>
+        </li>
+        </ul>
+        <h2>Our Portfolio</h2>
+        <p>Explore our portfolio to witness the magic we bring to life. From captivating mobile games that transport players to new realms to intuitive applications that simplify daily tasks, each project reflects our dedication to excellence.</p>
+    
+        <h2>Join Us on Our Journey</h2>
+        <p>We're excited about the future and invite you to join us on this thrilling adventure. Whether you're a user enjoying our creations or a talent looking to collaborate, Your Company Name is a community that values innovation, creativity, and the pursuit of excellence.</p>
+        
+        <p>Thank you for being a part of our story.</p>
+        <div class="img-container">
+          <div class="wrapper">
+              <img  src="C:\Users\sange\Projects\komekio\Images\about(img)1.avif" alt="Image 1">
+              <img  src="C:\Users\sange\Projects\komekio\Images\about(img)2.avif" alt="Image 2">
+              <img  src="C:\Users\sange\Projects\komekio\Images\about(img)3.avif" alt="Image 3">
+              <img  src="C:\Users\sange\Projects\komekio\Images\about(img)4.avif" alt="Image 4">
+          </div>
+        </div> 
+        
+    </section>
+
+    <section id="services">
+        <h1>Our Services</h1>
+        <h2>Mobile App Development</h2>
+        <ul>
+          <li>Native App Development (iOS, Android)</li>
+          <li>Cross-platform App Development (React Native, Flutter, Xamarin)</li>
+        </ul>
+
+        <h2>Game Development</h2>
+        <ul>
+          <li>2D and 3D Game Development</li>
+          <li>Unity Game Development</li>
+          <li>Unreal Engine Development</li>
+        </ul>
+
+        <h2>Marketing and Promotion</h2>
+        <ul>
+          <li>App Store Optimization (ASO)</li>
+          <li>Digital Marketing Strategies</li>
+          <li>Launch Campaigns</li>
+        </ul>
+
+        <h2>UI/UX Design</h2>
+        <ul>
+          <li>User Interface (UI) Design</li>
+          <li>User Experience (UX) Design</li>
+          <li>Wireframing and Prototyping</li>
+        </ul>
+
+        <h2>Augmented Reality (AR) and Virtual Reality (VR)</h2>
+        <ul>
+          <li>AR App Development</li>
+          <li>VR Game Development</li>
+          <li>AR/VR Simulations</li>
+        </ul>
+
+        <h2>Web App Development</h2>
+        <ul>
+          <li>Responsive Web App Development</li>
+          <li>Progressive Web App (PWA) Development</li>
+        </ul>
+
+        <h2>Backend Development</h2>
+        <ul>
+          <li>Server-side Development</li>
+          <li>Database Design and Integration</li>
+          <li>API Development</li>
+        </ul>
+
+        <h2>Quality Assurance (QA) and Testing</h2>
+        <ul>
+          <li>Functional Testing</li>
+          <li>Performance Testing</li>
+          <li>Security Testing</li>
+        </ul>
+
+        <h2>Cloud Services</h2>
+        <ul>
+          <li>Cloud-based App and Game Development</li>
+          <li>Cloud Hosting and Infrastructure (AWS, Azure, Google Cloud)</li>
+        </ul>
+        <div class="img-container">
+          <div class="wrapper">
+              <img  src="C:\Users\sange\Projects\komekio\Images\web(img)1.avif" alt="Image 1">
+              <img  src="C:\Users\sange\Projects\komekio\Images\web(img)2.avif" alt="Image 2">
+              <img  src="C:\Users\sange\Projects\komekio\Images\web(img)3.avif" alt="Image 3">
+              <img  src="C:\Users\sange\Projects\komekio\Images\web(img)4.avif" alt="Image 4">
+          </div>
+        </div>
+        
+    </section>
+    
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to us:</p>
+        <address>
+            Komekio<br>
+            Email: info@komekio.com<br>
+            ***************************<br>
+            ***************************<br>
+            ***************************<br>
+            ***************************<br>
+        </address>
+        <div class="img-container">
+          <div class="wrapper">
+              <img  src="C:\Users\sange\Projects\komekio\Images\contact(img)1.avif" alt="Image 1">
+              <img  src="C:\Users\sange\Projects\komekio\Images\contact(img)2.avif" alt="Image 2">
+              <img  src="C:\Users\sange\Projects\komekio\Images\contact(img)3.avif" alt="Image 3">
+              <img  src="C:\Users\sange\Projects\komekio\Images\contact(img)7.avif" alt="Image 4">
+              
+          </div>
+        </div> 
+    </section>
+  </div>
+    <div id="sign-in-section">
+      <div id="sign-in-form">
+          <h2>Sign In</h2>
+          <!-- Your sign-in form HTML goes here -->
+          <form>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required><br>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required><br>
+              <input type="submit" value="Sign In">
+          </form>
+          <a href="#">Forgot Password?</a>
+          <a href="#">Sign Up</a>
+      </div>
+  </div>
+
+  <div class="signup-container" id="signupContainer">
+    <h2>Sign Up</h2>
+    <form class="signup-form" onsubmit="return validateSignUpForm()">
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName">
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required onchange="calculateAge()">
+        </div>
+        
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="text" id="age" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+        <div class="policy-links">
+            By signing up, you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.
+        </div>    
+        <div class="signin-link">
+            Already a member? <a href="#">Sign In</a>
+        </div>
+    </form>
+
+    <div id="errorMessage" class="error-message"></div>
+</div>
+    
+    <footer>
+        <p>&copy; 2023 Komekio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
